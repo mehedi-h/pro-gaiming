@@ -18,6 +18,7 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
     font-weight: 400;
+    line-height: 30px;
 }
 .title {
     font-family: 'Poppins', sans-serif;
@@ -34,13 +35,7 @@ button {
 
 /* nav style */
 
-.logo-title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-    color: #2e2e2e;
-}
-.logo-title span {
+.title span {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 2rem;
@@ -125,7 +120,7 @@ button {
  .game-img-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0px 240px 150px;
+    padding: 0px 240px;
     gap: 30px;
 }
 .game-img .primary-text {
@@ -138,11 +133,34 @@ button {
 }
  /*ended online gaming style*/
 
+ /*Started instantly gaming style*/
+
+.play-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 250px;
+    padding: 120px 240px 200px 450px;
+    text-align: right;
+}
+.play-text-container {
+   position: relative;
+   bottom: 180px;
+
+}
+.play-text-container h1 {
+    padding-bottom: 20px;
+}
+.badge {
+    position: relative;
+    bottom: 280px;
+    right: 500px;
+}
 
 
 
 
-
+/*Ended instantly gaming style*/
 
 
 @media screen and (max-width: 425px) {
