@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.primary-text {
+    color: #2e2e2e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #2e2e2e;
+}
+
+/* nav style */
+
+.logo-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #2e2e2e;
+}
+.logo-title span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #e84393;
+}
+.nav-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 30px 240px;
+    background-color: #fff;
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2936;
+    font-size: .8rem;
+    font-weight: 400;
+    margin-right: 30px;
+    text-align: center;
+}
+.menu .follow-menu {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+ /*ended nav style */
+
+ /*started banner style */
+
+ .banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 240px;
+ }
+ .banner-container {
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+ }
+ .banner-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #a29bfe;
+ }
+ .banner-content .primary-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2936;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: left;
+ }
+ .button-1 {
+    margin: 30px 25px 50px 0px;
+    color: #fff;
+    background-color: #e84393;
+ }
+ .button-2 {
+    color: #fff;
+    background-color: #5f27cd;
+ }
+  /* Ended banner style */
+
+
+  /* started responsive section for small mobile device*/
+
+
+
+
+  /* Ended responsive section for small mobile device*/
