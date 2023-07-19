@@ -237,9 +237,6 @@ button {
     width: 40px;
     padding: 10px 20px;
 }
-.social-icon {
-   
-}
 .privacy-sub-menu {
     display: flex;
     align-items: center;
@@ -304,4 +301,3 @@ button {
 
 
   /* Ended responsive section for small mobile device*/
-*/
