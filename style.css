@@ -42,10 +42,16 @@ button {
 }
 .nav-container {
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: space-between;
     padding: 30px 240px;
     background-color: #fff;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .menu a {
     text-decoration: none;
@@ -54,10 +60,9 @@ button {
     font-size: .8rem;
     font-weight: 400;
     margin-right: 30px;
-    text-align: center;
 }
 .menu .follow-menu {
-    padding: 10px 20px;
+    padding: 20px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
@@ -70,11 +75,10 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 40px 240px;
- }
- .banner-container {
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
  }
+
  .banner-content h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
@@ -89,7 +93,6 @@ button {
     font-size: .8rem;
     font-weight: 500;
     margin-right: 30px;
-    text-align: center;
     margin-bottom: 20px;
     text-align: left;
  }
@@ -104,6 +107,79 @@ button {
  }
   /* Ended banner style */
 
+ /*online gaming style*/
+
+ .online-game-content {
+    margin: 20px 240px 20px;
+    text-align: center;
+ }
+ .online-game-content .primary-text {
+    padding: 20px 0;
+ }
+ .game-img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 240px 150px;
+    gap: 30px;
+}
+
+.game-img .primary-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2936;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 10px 0px;
+    line-height: 25px;
+}
+ /*ended online gaming style*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 30px;
+    }
+    .menu {
+        flex-direction: column;
+        padding: 0;
+    }
+    .menu a {
+        margin: 25px 0px;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .banner-img img {
+        width: 90vw;
+     }
+     /*.banner-content h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #a29bfe;
+     }
+     .banner-content .primary-text {
+        font-family: 'Montserrat', sans-serif;
+        color: #2c2936;
+        font-size: .8rem;
+        font-weight: 500;
+        margin-right: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-align: left;
+     }*/
+
+}
 
   /* started responsive section for small mobile device*/
 
