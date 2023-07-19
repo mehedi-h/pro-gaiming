@@ -25,6 +25,12 @@ button {
     font-size: 2rem;
     color: #2e2e2e;
 }
+.title .games {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #e84393;
+}
 
 /* nav style */
 
@@ -85,7 +91,7 @@ button {
     font-style: normal;
     font-weight: 900;
     text-transform: uppercase;
-    color: #a29bfe;
+    color: #e84393;
  }
  .banner-content .primary-text {
     font-family: 'Montserrat', sans-serif;
@@ -122,7 +128,6 @@ button {
     margin: 0px 240px 150px;
     gap: 30px;
 }
-
 .game-img .primary-text {
     font-family: 'Montserrat', sans-serif;
     color: #2c2936;
