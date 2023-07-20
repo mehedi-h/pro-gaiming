@@ -27,8 +27,8 @@ button {
     color: #2e2e2e;
 }
 .title img {
-    height: 50px;
-    width: 50px; 
+    height: 45px;
+    width: 45px; 
 }
 .title .games {
     font-family: 'Poppins', sans-serif;
@@ -38,7 +38,10 @@ button {
 }
 
 /* nav style */
-
+.logo h1 {
+    display: flex;
+    gap: 20px;
+}
 .title span {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -77,22 +80,23 @@ button {
     color: #2c2936;
     font-size: .8rem;
     font-weight: 400;
-    margin-right: 30px;
+    padding-right: 30px;
 }
 
  /*ended nav style */
+
 
  /*started banner style */
 
  .banner-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 40px 240px;
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
+    gap: 50px;
+    padding: 0 240px 100px;
  }
-
  .banner-content h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
@@ -100,7 +104,9 @@ button {
     font-weight: 900;
     text-transform: uppercase;
     color: #e84393;
+    text-align: left;
  }
+
  .banner-content .primary-text {
     font-family: 'Montserrat', sans-serif;
     color: #2c2936;
@@ -109,6 +115,9 @@ button {
     margin-right: 30px;
     margin-bottom: 20px;
     text-align: left;
+ }
+ .banner-img {
+    height: 90%;
  }
  .button-1 {
     margin: 30px 25px 50px 0px;
@@ -144,6 +153,8 @@ button {
     padding: 10px 0px;
     line-height: 25px;
 }
+
+
  /*ended online gaming style*/
 
  /*Started instantly gaming style*/
@@ -255,7 +266,10 @@ button {
     padding: 20px 0px 120px;
 }
 
-/*
+
+
+
+
 @media screen and (max-width: 425px) {
     .nav-container {
         flex-direction: column;
@@ -276,7 +290,7 @@ button {
     .banner-img img {
         width: 90vw;
      }
-     /*.banner-content h1 {
+    .banner-content h1 {
         font-family: 'Poppins', sans-serif;
         font-size: 4rem;
         font-style: normal;
@@ -293,8 +307,8 @@ button {
         text-align: center;
         margin-bottom: 20px;
         text-align: left;
-     }*/
-
+     }
+}
   /* started responsive section for small mobile device*/
 
 
