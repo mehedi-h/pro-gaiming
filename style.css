@@ -131,16 +131,15 @@ button {
   /* Ended banner style */
 
 
-
-
-
-
-
-
-
-
  /*online gaming style*/
 
+
+ .game-img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 240px;
+    gap: 30px;
+}
  .online-game-content {
     margin: 20px 240px 20px;
     text-align: center;
@@ -148,12 +147,7 @@ button {
  .online-game-content .primary-text {
     padding: 20px 0;
  }
- .game-img-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 0px 240px;
-    gap: 30px;
-}
+
 .game-img .primary-text {
     font-family: 'Montserrat', sans-serif;
     color: #2c2936;
@@ -185,13 +179,6 @@ button {
 
 
 
-
-
-
-
-
-
-
  /*Started instantly gaming style*/
 
 .play-container {
@@ -205,7 +192,6 @@ button {
 .play-text-container {
    position: relative;
    bottom: 180px;
-
 }
 .play-text-container h1 {
     padding-bottom: 20px;
@@ -241,6 +227,7 @@ button {
 .game-item:hover {
     color: #e84393;
     border: 2px solid #e84393;
+    cursor: pointer;
 }
 .game-item2 {
     display: flex;
@@ -254,6 +241,7 @@ button {
 .game-item2:hover {
     color: #e84393;
     border: 2px solid #e84393;
+    cursor: pointer;
 }
 
 /*Ended instantly gaming style*/
@@ -323,7 +311,7 @@ button {
     }
     .banner-container {
         flex-direction: column-reverse;
-        padding: 20px;
+        padding: 10px;
     }
     .banner-img img {
         width: 90vw;
@@ -346,6 +334,30 @@ button {
         margin-bottom: 20px;
         text-align: left;
      }
+     .game-img-container {
+        grid-template-columns: 1fr;
+        padding: 50px;
+        margin: 0;
+    }
+    .online-game-content {
+        padding: 20px;
+        margin: 0;
+     }
+     .play-container {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .play-text-container {
+        padding: 20px 0px;
+     }
+     .game-category1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        margin: 0 200px;
+    }
 }
   /* started responsive section for small mobile device*/
 
