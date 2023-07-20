@@ -239,6 +239,7 @@ button {
     border: 2px solid #fff;
 }
 .game-item:hover {
+    color: #e84393;
     border: 2px solid #e84393;
 }
 .game-item2 {
@@ -251,6 +252,7 @@ button {
     padding: 5px;
 }
 .game-item2:hover {
+    color: #e84393;
     border: 2px solid #e84393;
 }
 
